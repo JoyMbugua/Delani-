@@ -97,3 +97,48 @@ body {
             transition: .5s ease;
             backface-visibility: hidden;
           } 
+
+          .mosaic {
+            position: relative;
+            background-image: url(../assets/backgrounds/c_image.jpg);
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover; 
+          }
+          .mosaic h3 {
+              color: white;
+              padding: 30px;
+          }
+          form input {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+            margin-top: 20px;
+            margin-left: 200px;
+            margin-right: 100px;
+            background-color: transparent;
+            color: white;
+            border: 1px solid white;
+          }
+          /* input {
+              width: 45%;
+          } */
+          textarea {
+              justify-content: center;
+              text-align: center;
+              width: 65%;
+              margin-left: 200px;
+              margin-top: 20px;
+              background-color: transparent;
+              border: 1px solid white;
+          }
+          ::placeholder {
+              color: white;
+          }
+          .btn {
+              background-color: black;
+              color: white;
+              margin-left: 200px;
+              margin-top: 10px;
+              margin-bottom: 20px;
+          }
