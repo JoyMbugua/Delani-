@@ -63,3 +63,11 @@ body {
         line-height: 150%;
         
     }
+    .services {
+        text-align: center;
+        margin-top: 20px;
+    }
+    .writeup {
+        font-size: 13px;
+        text-align: justify;
+    }
