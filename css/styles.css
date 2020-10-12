@@ -19,9 +19,7 @@ body {
         position: relative;
    
     }
-    /* header img {
-        text-align: center;
-    } */
+   
     .hero-text {
         text-align: center;
         position: absolute;
@@ -36,4 +34,11 @@ body {
     }
     .hero h1 {
         font-weight: bold;
+    }
+    .about {
+        text-align: center;
+        line-height: 200%;
+    }
+    p {
+        font-size: 14px;
     }
