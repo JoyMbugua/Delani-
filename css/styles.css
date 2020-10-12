@@ -89,3 +89,11 @@ body {
             padding-top: 78px;
             color: blue;
         }
+
+        .imgcontain {
+            position: relative;
+            opacity: 1;
+            width: 100%;
+            transition: .5s ease;
+            backface-visibility: hidden;
+          } 
