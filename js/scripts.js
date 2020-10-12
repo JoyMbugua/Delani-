@@ -19,4 +19,8 @@ $(document).ready(function() {
         $(this).slidedown()
     }, $(".services img").show()
     )
+
+    $(".btn").click(function() {
+        alert("Thank you for contacting us!")
+    })
 })
