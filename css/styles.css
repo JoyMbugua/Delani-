@@ -71,3 +71,21 @@ body {
         font-size: 13px;
         text-align: justify;
     }
+
+    .hoverlay {
+        position: absolute;
+        z-index: 1;
+        display:none;
+        opacity: 0.5;
+        top: 5px;
+        left: 0px;
+        text-align: center;
+        font-size: 28px;
+        height: 100%; /*height of the image */
+        width:100%;
+        /* background-color: rgba(0, 0, 0, 0.75) */
+         }
+        .hoverlay h2 {
+            padding-top: 78px;
+            color: blue;
+        }
