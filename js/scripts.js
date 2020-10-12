@@ -23,4 +23,17 @@ $(document).ready(function() {
     $(".btn").click(function() {
         alert("Thank you for contacting us!")
     })
+
+
+    function submit($form) {
+        $('#mc-embedded-subscribe').val('Sending...');
+        $.ajax({
+          type: $form.attr('method'),
+          url: $form.attr('action'),
+          data: $form.serialize(),
+          cache: false,
+          dataType: 'json',
+          contentType: 'application/json; charset=utf-8',
+          error: function (err) { alert('Could not connect to the registration server. Please try again later.') },
+        }) }
 })
