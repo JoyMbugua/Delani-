@@ -7,3 +7,16 @@ $(document).ready(function(){
     });
     
 });
+
+$(document).ready(function() {
+    $(".writeup").hide();
+    $(".services").click(function() {
+        $(this).children(".writeup").show("slow")
+        $(this).children(".services img").hide();
+
+    })
+    $("p").hover(function() {
+        $(this).slidedown()
+    }, $(".services img").show()
+    )
+})
